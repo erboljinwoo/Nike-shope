@@ -1,0 +1,349 @@
+body {
+    background-color: rgb(248, 246, 246);
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.f-parent {
+    text-align: center;
+}
+.a-text h2 {
+    font-weight: 800;
+    font-size: 40px;
+    font-family: "Poppins";
+}
+.a-text {
+    text-align: center;
+    margin-top: 119px;
+    font-family: "Poppins";
+}
+.a-text2 h2 {
+    font-weight: 800;
+    font-size: 40px;
+    font-family: "Poppins";
+}
+.a-text2 {
+    text-align: center;
+}
+
+.parent .child h5 {
+    text-align: left;
+    width: 130px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-style: 19px;
+    line-height: 100%;
+}
+.parent .child p {
+    text-align: left;
+    width: 125px;
+    height: 51px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.parent .child1 h5 {
+    text-align: left;
+    width: 130px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-style: 19px;
+    line-height: 100%;
+}
+.parent .child1 p {
+    text-align: left;
+    width: 125px;
+    height: 51px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.parent .child2 h5 {
+    text-align: left;
+    width: 130px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-style: 19px;
+    line-height: 100%;
+}
+.parent .child2 p {
+    text-align: left;
+    width: 125px;
+    height: 51px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.parent .child3 h5 {
+    text-align: left;
+    width: 130px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-style: 19px;
+    line-height: 100%;
+}
+.parent .child3 p {
+    text-align: left;
+    width: 125px;
+    height: 51px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.parent .child {
+    width: 296px;
+    height: 600px;
+    background-image: url(../images/cros.png);
+    background-size: cover;
+    display: flex;
+    align-items: end
+}
+
+.parent .child1 {
+    display: flex;
+    align-items: end;
+    width: 296px;
+    height: 600px;
+    background-image: url(../images/cros2.png);
+    background-size: cover;
+}
+
+.parent .child2 {
+    display: flex;
+    align-items: end;
+    width: 296px;
+    height: 600px;
+    background-image: url(../images/cros3.png);
+    background-size: cover;
+}
+
+.parent .child3 {
+    display: flex;
+    align-items: end;
+    width: 296px;
+    height: 600px;
+    background-image: url(../images/cros4.png);
+    background-size: cover;
+}
+
+
+/* section2 */
+
+.a-parent {
+    display: flex;
+}
+.a-parent .a-card button{
+    color: white;
+    background-color: rgba(242, 39, 53, 1);
+    width: 54px;
+    height: 28px;
+    padding: auto;
+    border: none;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.a-parent .a-card {
+    width: 296px;
+    height: 570px;
+}
+.a-parent {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+
+
+.a-parent .a-card .a-cros {
+    background-color: white;
+    background-image: url(../images/kros.png);
+    background-size: cover;
+    width: 296px;
+    height: 400px;
+}
+
+.a-parent .a-card .a-cros2 {
+    background-color: white;
+    background-image: url(../images/kros2.png);
+    background-size: cover;
+    width: 296px;
+    height: 400px;
+}
+
+.a-parent .a-card .a-cros3 {
+    background-color: white;
+    background-image: url(../images/kros3.png);
+    background-size: cover;
+    width: 296px;
+    height: 400px;
+}
+
+.a-parent .a-card .a-cros4 {
+    background-color: white;
+    background-image: url(../images/kros4.png);
+    background-size: cover;
+    width: 296px;
+    height: 400px;
+}
+.a-parent .a-card .p{
+    margin-top: 24px;
+    margin-left: 55px;
+    width: 160px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: "Poppins";
+}
+.a-parent .a-card .a-p {
+    margin-top: 15px;
+    margin-left: 130px;
+}
+.a-parent .a-card .a-btn {
+    width: 156px;
+    height: 40px;
+    padding: auto;
+    margin-left: 70px;
+}
+
+/* section3 */
+
+/* section4 */
+
+.a-parent {
+    display: flex;
+}
+.a-parent .a-card button{
+    color: white;
+    background-color: rgba(242, 39, 53, 1);
+    width: 54px;
+    height: 28px;
+    padding: auto;
+    border: none;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.a-parent .a-card {
+    width: 296px;
+    height: 570px;
+}
+.a-parent {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+
+
+.a-parent .a-card .a-keda {
+    background-color: white;
+    background-image: url(../images/keda.png);
+    background-size: cover;
+    width: 296px;
+    height: 400px;
+}
+
+.a-parent .a-card .a-keda2 {
+    background-color: white;
+    background-image: url(../images/keda2.png);
+    background-size: cover;
+    width: 296px;
+    height: 400px;
+}
+
+.a-parent .a-card .a-keda3 {
+    background-color: white;
+    background-image: url(../images/keda3.png);
+    background-size: cover;
+    width: 296px;
+    height: 400px;
+}
+
+.a-parent .a-card .a-keda4 {
+    background-color: white;
+    background-image: url(../images/keda4.png);
+    background-size: cover;
+    width: 296px;
+    height: 400px;
+}
+.a-parent .a-card .p{
+    margin-top: 24px;
+    margin-left: 55px;
+    width: 160px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: "Poppins";
+}
+.a-parent .a-card .a-p {
+    margin-top: 15px;
+    margin-left: 130px;
+}
+.a-btn {
+    width: 200px;
+    height: 60px;
+    padding: auto;
+    margin-left: 164px;
+    border: none;
+    background-color: rgba(242, 39, 53, 1);
+    color: white;
+}
+
+.section3 {
+    display: flex;
+    width: 1300px;
+    height: 407px;
+    font-family: "Poppins";
+    background-image: url(../images/run.png);
+    background-size: cover;
+}
+
+.section3 .a-left h2 {
+    font-weight: 800;
+    font-size: 200px;
+    color: white;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+.section3 .a-left p {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 125px;
+}
+.section3 .a-right h3 {
+    color: white;
+    margin-top: 140px;
+    margin-left: 164px;
+    font-weight: 900;
+    font-size: 40px;
+}
+.section3 .a-right p {
+    width: 390px;
+    color: white;
+    margin-left: 164px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
