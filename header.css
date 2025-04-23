@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #ffffff;
+  color: #000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-bottom: 1px solid #eee;
+
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.icons a {
+  margin-left: 15px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 50px;
+  background-color: #f8f8f8;
+  align-items: center;
+}
+
+.hero-left {
+  width: 50%;
+}
+
+.hero-left h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.hero-left p {
+  color: #555;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: 80px;
+}
+
+.hero-left .btn-view {
+  background-color: red;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 80px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px auto;
+  background: white;
+  width: 80%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: 900px;
+  height: 400px;
+
+
+}
+
+.left-box,
+.right-box {
+  padding: 30px;
+  width: 50%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.profile-info h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.profile-info p {
+  margin: 0;
+  color: gray;
+  font-size: 14px;
+}
+
+.left-box h2 {
+  font-size: 24px;
+  margin: 15px 0;
+  padding: 9px;
+}
+
+.left-box p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.right-box {
+  background: url('./images/nike.png') center/cover no-repeat;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.discount-text {
+
+  padding: 30px;
+}
+
+.discount-text h2 {
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+
+.discount-text p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #e73327;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+#testimonial-cards {
+  display: flex;
+  gap: 20px;
+  box-shadow: #000;
+  justify-content: center;
+
+  
+
+}
+
+.card {
+  width: 420px;
+  text-align: center;
+  /* border: 1px solid red; */
+  
+  img {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    margin-top: 30px;
+  }
+  p {
+    padding: 30px;
+  }
+  p:last-child {
+    color: red;
+  }
+
+
+}
+
+.testimonials {
+  text-align: center;
+  padding: 60px 20px;
+  
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+ 
+}
+
+
+.card .name {
+  font-weight: bold;
+  color: #e73327;
+}
