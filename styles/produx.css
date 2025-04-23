@@ -1,0 +1,144 @@
+.produx .p-left p {
+    font-weight: 400;
+
+}
+.produx .p-right {
+    display: flex;
+    gap: 50px;
+}
+.produx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+    margin-bottom: 35px;
+}
+.produx #p-select {
+    padding: 10px 14px;
+    border-radius: none;
+    border: 1px solid rgba(80, 78, 74, 1);
+    color: rgba(80, 78, 74, 1);
+}
+.produx .p-input {
+    padding: 10px 14px;
+    border: 1px solid rgba(80, 78, 74, 1);
+    input {
+        border-radius: 0px;
+        outline: none;
+        border: none;
+    }
+    img {
+        cursor: pointer;
+    }
+}
+
+
+.p-cards {
+    display: flex;
+}
+
+
+.p-cards {
+    display: flex;
+}
+.p-cards .a-card button{
+    color: white;
+    background-color: rgba(242, 39, 53, 1);
+    width: 54px;
+    height: 28px;
+    padding: auto;
+    border: none;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.p-cards .a-card {
+    width: 296px;
+    height: 570px;
+}
+.p-cards {
+    display: flex;
+    margin-top: 60px;
+    gap: 10px;
+    max-width: 910px ;
+    width: 100%;
+    flex-wrap: wrap;
+    .a-card {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+.p-cards .a-card .a-cros {
+    background-color: white;
+    background-image: url(../images/kros.png);
+    background-size: cover;
+    width: 296px;
+    height: 400px;
+}
+
+.p-cards .a-card .a-cros2 {
+    background-color: white;
+    background-image: url(../images/kros2.png);
+    background-size: cover;
+    width: 296px;
+    height: 400px;
+}
+
+.p-cards .a-card .a-cros3 {
+    background-color: white;
+    background-image: url(../images/kros3.png);
+    background-size: cover;
+    width: 296px;
+    height: 400px;
+}
+
+.p-cards .a-card .a-btn {
+    width: 156px;
+    height: 40px;
+    padding: auto;
+    margin-left: 70px;
+}
+.p-cards .a-card .p{
+    margin-top: 24px;
+    margin-left: 55px;
+    width: 160px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: "Poppins";
+}
+.p-cards .a-card .a-p {
+    margin-top: 15px;
+    margin-left: 130px;
+}
+
+.p-content {
+    display: flex;
+    justify-content: space-between;
+}
+.p-sidebar {
+    display: flex;
+    flex-direction: column ;
+    margin-top: 70px;
+    font-family: "Poppins";
+}
+.p-sidebar .p-top h3 {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.p-sidebar .s-card {
+    margin-top: 25px;
+    display: flex;
+    width: 350px;
+    img {
+        width: 90px;
+        height: 90px;
+        margin-right: 20px;
+    }
+}
+
+.p-sidebar .p-bottom {
+    margin-top: 170px;
+}
